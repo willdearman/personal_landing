@@ -1,3 +1,42 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.willdearman.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Will Dearman"
+theme = "hallo"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[author]
+    name = "Will Dearman"
+    homepage = "https://www.willdearman.com/"
+
+[params]
+    greeting = "Hello!"
+    [params.colors]
+        background = "#646f6f"
+        foreground = "#edf7ff"
+        hover = "#f9f3c5"
+    [[params.links]]
+        iconset = "fas"
+        icon = "user-astronaut"
+        title = "Starfighter Blog by Will Dearman"
+        url = "https://www.starfighter.xyz"
+    [[params.links]]
+        icon = "linkedin"
+        title = "Will Dearman's LinkedIn profile"
+        url = "https://www.linkedin.com/in/willdearman"
+    [[params.links]]
+        icon = "twitter-square"
+        title = "@wtd on Twitter"
+        url = "https://twitter.com/wtd"
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/willdearman"
+    [[params.links]]
+        icon = "get-pocket"
+        title = "Picket"
+        url = "https://getpocket.com/@6b8g0dd2p6d2eA2f37T4667Tf8A6p76811ar8ftp20b795gX228aMxf8Q68iB890"
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:landingpage@willdearman.com"
