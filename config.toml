@@ -40,3 +40,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         icon = "envelope"
         title = "E-mail"
         url = "mailto:landingpage@willdearman.com"
+
