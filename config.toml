@@ -15,11 +15,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         foreground = "#edf7ff"
         hover = "#f9f3c5"
     [[params.links]]
-        iconset = "fas"
-        icon = "user-astronaut"
-        title = "Starfighter Blog by Will Dearman"
-        url = "https://www.starfighter.xyz"
-    [[params.links]]
         icon = "linkedin"
         title = "Will Dearman's LinkedIn profile"
         url = "https://www.linkedin.com/in/willdearman"
@@ -33,7 +28,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         url = "https://github.com/willdearman"
     [[params.links]]
         icon = "get-pocket"
-        title = "Picket"
+        title = "Pocket"
         url = "https://getpocket.com/@6b8g0dd2p6d2eA2f37T4667Tf8A6p76811ar8ftp20b795gX228aMxf8Q68iB890"
     [[params.links]]
         iconset = "fas"
